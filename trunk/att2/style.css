@@ -1,0 +1,261 @@
+html, body {
+	font: 13px Arial,Tahoma,Sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	
+}
+	   
+		   
+#page     { 
+               margin: 12px auto;
+               padding:0px; 
+               top: 5px;
+               width: 1024px; /* внешний блок сайта */
+               border: dashed 0px;
+               			   
+				 }
+
+#base     {   position: relative  ;
+			margin:0px; 
+				padding:0px; 
+               top: 0px;
+               left: 0px;
+               width: 1024px; /* всё , кроме стихийных сообщений */
+               border: dashed 0px;
+               height: auto;
+			   
+			  }
+
+#main_menu   { position:relative ;
+              margin:0px; 
+              padding:0px;
+              background-image:  url('images/main_menu/fone/main_menu.jpg');
+              background-repeat: no-repeat;
+              width: 1024px ;  
+              height: 60px ; 
+			  border: dashed 0px;  }
+#main_menu_element
+	{
+	margin-left: 10px;
+	margin-right: 10px; 
+	 position: relative;
+     min-height: 10px;	 
+	 height: auto;	 
+	float: left;
+	border: dashed 0px;
+
+	}
+			  
+  #promo   {
+	  position:relative ;
+	  margin:0px; 
+	  padding:0px;
+	  width: 1024px ;  
+	  height: 60px ; 
+	  border: dashed 1px; 
+	  color: #ffffff;
+  }
+			  
+			  
+#main_menu_text   {position:relative ;
+              font: 13px Arial,Tahoma,Sans-serif;
+              margin:0px; 
+              padding:0px;
+              background-image:  url('images/main_menu/fone/main_menu.jpg');
+              background-repeat: no-repeat;
+              width: 1024px ;  
+              height: 60px ; border: dashed 1px;  }
+
+#main_photo  {position:relative ;
+              margin:0px; 
+              padding:0px;
+              background-image:  url('images/main_photo/fone/main_photo.jpg');
+              background-repeat: no-repeat;
+              top: 25px;
+              left: 20px;
+              width: 287px ;  
+              height: 127px ; border: dashed 1px;
+			  }
+
+#left_block   {position: relative;
+            margin-bottom:0px; 
+            padding:0px;   
+              background-image:  url('images/main_form/fone/main_form.jpg');
+              background-repeat: repeat;
+              top: 30px;
+              left: 20px;
+              width: 287px ;  
+              min-height: 400px ;
+			  height: auto ;
+			  border: dashed 0px;
+			  float:left;
+			  
+              			  }
+#main_text_area {position: relative;
+                 margin-top: 30px;
+                 margin-left: 30px;				 
+                 padding:0px;
+                 background-image:  url('images/main_text_area/fone/main_text_area.jpg');
+                 background-repeat: repeat;
+                 top: 0px;
+                 left: 0px ;
+                 width: 650px ;  
+                 min-height: 400px ;
+                 height:auto;				 
+				 float: left; /*float: left; float: clear;*/
+				 border: dashed 1px;  }
+				 
+#main_text_area_text {position: relative;
+                 margin: 10px auto; 
+                 padding:0px;
+                 background-image:  url('images/main_form/fone/main_form.jpg');
+                 background-repeat: repeat; 
+				 top: 20px;
+                 left: 0px ;
+                 width: 300px ;  
+                 height: 200px ; 
+				 border: dashed 0px;
+                 background-color: #FFFFFF;	}
+
+#main_text_head {position: relative;
+                 margin: 12px auto; 
+                 padding:0px; 
+                background-image:  url('images/main_text_area/main_text_head/fone/main_text_head.jpg');
+                background-repeat: no-repeat;
+                top: 0px ;
+                left: 0px ;
+                width: 322px ;  
+                height: 20px ;
+				border: dashed 1px; 
+				}
+#right_block   {position: relative;
+               margin: 0px; 
+               padding: 0px;
+                background-image:  url('images/right_block/fone/right_block.jpg');
+                background-repeat: repeat;
+                top: -620px;
+                left: 720px;
+                width: 250px ;  
+                height: 400px ; 
+				border: dashed 0px;  }
+				
+#message    {position: relative;
+           margin-left:0px; 
+           padding:0px;
+             background-image:  url('images/message/fone/message_area.jpg');
+             background-repeat: repeat-x;
+             background-color: #FFFFFF;
+             top: 0px;
+             left: 0px;
+             width: 700px ;  
+             height: 300px  auto; 
+			 border: dashed 1px; 
+			 }
+#user_avatar {position: relative;
+             float: left;
+             margin:0px; 
+             padding:0px; 
+             background-image:  url('images/message/user_avatar/fone/user_avatar.jpg');
+             background-repeat: no-repeat;
+             top: 5px;
+             left: 5px;
+             width: 109px ;  
+             height: 51px ;  border: dashed 1px; }
+#message_text {position: relative;
+            margin-left: 124px;
+             padding:5px; 
+             width: 550px ;  
+             height: 100px auto ; 			 
+			 border: dashed 1px; }			 
+#message_head {position: relative;
+                 margin: 3px auto;  
+               padding:0px;  
+               background-image:  url('images/message/message_head/fone/message_head.jpg');
+               background-repeat: no-repeat;
+               top: 5px;
+               left: 5px;
+               width: 638px ;  
+               height: 7px ; border: dashed 1px;  } 
+#message_bottom {position: relative;
+                  margin: 10px auto; 
+                 padding:0px;
+                 background-image:  url('images/message/message_bottom/fone/message_bottom.jpg');
+                 background-repeat: no-repeat;
+                 top: 5px;
+                 left: 5px;
+                 width: 505px ;  
+                 height: 4px ; border: dashed 1px;  }   
+
+/* -----------общеупотребительные элементы------------------*/
+
+#head {
+                
+				position: relative;
+                margin: 12px auto ; 
+                padding:0px; 
+                left: 0px ;
+                width: 22px auto;  
+                height: 20px  auto;
+				font: 13px Arial,Tahoma,Sans-serif;
+				text-align: center;
+		        border: dashed 0px; 
+				}
+  
+#promo1 { 
+		  position: relative;
+		  font: Tahoma,13px Arial,Sans-serif;
+		  font-size: 250%;
+		    top: 15px ;
+		  color: #FFFFFF;
+		  border: dashed 0px;
+         }
+  
+  
+ #promo2 { 
+          position: relative;
+          font: Tahoma,13px Arial,Sans-serif;
+          font-size: 120%;
+		  top: 5px ;
+		  border: dashed 0px;
+		  }
+		  
+#content
+{
+   position: relative;
+   margin: 5px ;
+   padding: 0px;
+	background-repeat: repeat;
+	top: 10px;
+	left:0px; 
+    min-height: 20px; 	
+    height: auto; 
+	border: dashed 0px;
+	
+}
+
+#left_block_content
+{
+ position: relative;
+ background-color:  #a9a19b;
+ min-height: 300px;	 
+ height: auto;
+ float: clear;
+}
+
+#main_block_content
+{
+ position: relative;
+ background-color:  #f3d898;
+ background-image:  url('images/right_block/fone/right_block.jpg');
+ min-height: 300px;	 
+ height: auto;
+ float: clear;
+ border: dashed 1px;
+}
+
+#size_wrapper
+{height:auto;
+overflow: hidden;}
+				
+ 
