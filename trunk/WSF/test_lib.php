@@ -12,12 +12,12 @@ function parser_test()
 { 
 
  echo ("<br>***  ---------<b>структура заполняемого массива метаинформации=</b>---------- ***<br><br>");
-  $tagarr = get_tag_list("tags.txt");
+  $tagarr = get_tag_list("../files/tags.txt");
  print_r($tagarr);
  echo ("<br> <br> <br> ");
  
  echo ("<br>***  ---------<b>заполнение массива метаинформации , после чтения meta.info файла=</b>---------- ***<br><br>");
- $str = tfile_to_str("mag/meta.info"); // указываем путь к файлу метаинформации.
+ $str = tfile_to_str("../files/mag/meta.info"); // указываем путь к файлу метаинформации.
  $rarr = meta_arr_fill($tagarr,$str);
  print_r($rarr);
   echo ("<br> <br> <br> ");
