@@ -5,7 +5,7 @@ function open_file($path ,$optype) // открыть файл php
 	$result=0;
 	if (!$fdata) 
 	  { 
-		echo ("<b>(!)Error = Невозможно открыть файл</b><br>");
+		echo ("<br><b>[(!)Error = Невозможно открыть файл , указанный путь = <i>".$path ."</i>]</b><br>");
 		exit;
 	  }
 	  else $result= $fdata;
