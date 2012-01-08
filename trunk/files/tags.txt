@@ -1,5 +1,0 @@
-﻿people
-magname
-about
-keyword
-bossname
