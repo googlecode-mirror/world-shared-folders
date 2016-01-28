@@ -1,0 +1,1 @@
+Now WSF(and WSF-international) is set of php scripts that enable you to publish articles on your site without using web-interface and web-browser at all.
